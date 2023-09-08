@@ -122,7 +122,7 @@ onload = function () {
         // Create new data and display the data
         createData();
         network.setData(curr_data);
-        temptext2.innerText = 'Find least time path from '+cities[src-1]+' to '+cities[dst-1];
+        temptext2.innerText = 'Find least time travel path from '+cities[src-1]+' to '+cities[dst-1];
         temptext.style.display = "inline";
         temptext2.style.display = "inline";
         container2.style.display = "none";
